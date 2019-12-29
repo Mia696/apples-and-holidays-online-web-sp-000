@@ -80,8 +80,18 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
-  # include the string "BBQ"
+hello = []
+  # include the string "BBQ"	  holiday_hash.each do |z,w|
 
+    w.each do |x,y| 
+end	      if y.include?("BBQ")
+        hello << x
+
+      end
+    end
+  end # Here it doesn't show up. The holiday_hash.each do |z,w| is still going on
+hello # Placement is key: here the output [:fourth_of_july, :memorial_day]
+end 
 end
 
 

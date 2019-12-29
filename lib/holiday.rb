@@ -75,8 +75,7 @@ puts "#{k.capitalize}:"
    title = x.to_s.tr("_", " ").split 
 puts "  #{title.collect {|x| x.capitalize}.join(" ")}: #{y.join(", ")}" 
 end
-end 
-end 
+
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists

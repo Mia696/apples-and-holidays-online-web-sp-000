@@ -76,7 +76,7 @@ puts "#{k.capitalize}:"
 puts "  #{title.collect {|x| x.capitalize}.join(" ")}: #{y.join(", ")}" 
 end
 end
-end
+
 
 
 def all_holidays_with_bbq(holiday_hash)

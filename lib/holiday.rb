@@ -75,7 +75,7 @@ puts "#{k.capitalize}:"
    title = x.to_s.tr("_", " ").split 
 puts "  #{title.collect {|x| x.capitalize}.join(" ")}: #{y.join(", ")}" 
 end
-end
+
 
 
 

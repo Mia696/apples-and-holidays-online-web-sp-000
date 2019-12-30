@@ -81,6 +81,7 @@ puts "#{k.capitalize}:"
 puts "  #{title.collect {|x| x.capitalize}.join(" ")}: #{y.join(", ")}" 
 end
 end
+end
 
 
 

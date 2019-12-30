@@ -98,7 +98,7 @@ hello = []
   end # Here it doesn't show up. The holiday_hash.each do |z,w| is still going on
 hello # Placement is key: here the output [:fourth_of_july, :memorial_day]
 end 
-end
+
 
 
 
